@@ -1,0 +1,1 @@
+document.write("<a class="link" href="">Badiiy Kitoblar</a><a class="link" href="">Ertak Kitoblar</a><a class="link" href="">Hikoyali Kitoblar</a><a class="link" href="">Sevgi Kitoblar</a><a class="link" href="">Kasbga Oid Kitoblar</a><a class="link" href="">...</a>");

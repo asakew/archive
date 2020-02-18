@@ -1,0 +1,314 @@
+/*
+* Powered by Ackmal Sindorov
+* Editor: 17.03.2018 AS:√
+*/
+
+@charset "UTF-8";
+
+html, body
+{
+	margin: 0 auto;
+	max-width : 70%;
+	color: rgb(0,0,0);	
+	background: #404040;	
+	font: 1em Helvetica, Arial, sans-serif, Tahoma normal
+}
+
+.head
+{margin: 8px;
+border-radius: 8px;
+background:url(images/head.gif) repeat #696969;}
+
+.link
+{text-decoration: none;
+color: #FFF;
+display: block;
+background-color: #5C5C5C;
+padding: 8px;
+margin-top: 2px;
+margin-bottom: 2px;
+margin-left: 10px;
+margin-right: 10px;
+border-radius: 3px}
+
+.link:hover {text-decoration: none; color: #fff; background: red}
+
+a:link, a:visited {color: #FFF; text-decoration: none;}
+
+header {padding-top: 18px}
+
+.menu
+{color: #fff;
+display: inline-table;
+margin-top: 10px;
+margin-bottom: 4px;
+background: #3e393f;
+border-radius: 0 5px 5px 0;
+font-weight: bold;
+padding: 8px}
+
+article
+{background-color: #5C5C5C;
+border-radius: 3px;
+margin-left: 10px;
+margin-right: 10px;
+color:#fff;
+padding: 8px}
+
+footer
+{margin-top: 10px; padding: 8px;}
+
+p {
+	margin: 15px 0 15px 0
+}
+
+*, *:before, *:hover, *:after
+{
+	padding: auto;
+	box-sizing: border-box;
+	-khtml-sizing-border-box;
+	-o-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-webkit-box-sizing: border-box
+}
+
+/*Font-Weight*/
+.wnormal {font-weight: normal}
+.w100 {font-weight: 100px}
+.w200 {font-weight: 200px}
+.w300 {font-weight: 300px}
+.w400 {font-weight: 400px}
+.w500 {font-weight: 500px}
+
+/*Ranglar*/
+.yashil {color: #00ff00}
+.qora {color: rgb(0,0,0)}
+.kuk {color: rgb(0,0,255)}
+.qizil {color: rgb(255,0,0)}
+.sariq {color: rgb(255,255,0)}
+.oq {color: rgb(255,255,255)}
+.orange {color: rgb(255,165,0)}
+.och-yashil {color: rgb(0,255,0)}
+.och-kuk {color: rgb(0,255,255)}
+.kul-rang {color: rgb(128,128,128)}
+
+/*Background ranglar*/
+.yashilbg {color: #fff; background: #00ff00}
+.qorabg {color: #fff; background: rgb(0,0,0)}
+.qizilbg{color: #fff; background: rgb(255,0,0)}
+
+/*Soya-lar*/
+.soya {box-shadow: 10px 10px 5px grey}
+.soya-oq {color: white; text-shadow: 2px 2px 4px #000000}
+.soya-kuk {color: white; text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue}
+.soya-border-full {box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)}
+
+/*Font-Family*/
+.foblique {font-family: oblique}
+.fnormal {font-family: normal}
+
+/*Font Variant-lar*/
+.small-caps {font-variant: small-cap}
+
+/*Text-Align-lar*/
+.left {text-align: left}
+.right {text-align: right}
+.justify {text-align: justify}
+center, .center {text-align: center}
+
+/*Float-lar*/
+.fleft {float: left}
+.fright {float: right}
+.fcenter{float: center}
+
+/*Text Decoration-lar*/
+.dnone {text-decoration: none}
+.doverline {text-decoration: overline}
+.dunderline {text-decoration: underline}
+.dline-through {text-decoration: line-through}
+
+/*Text Transform-lar*/
+.tcapitalize {text-transform: capitalize}
+.tlowercase {text-transform: lowercase}
+.tuppercase {text-transform: uppercase}
+
+.h1, .h2, .h3, .h4, .h5, .h6
+h1, h2, h3, h4, h5, h6
+{font-family: bold}
+
+hr
+{
+	height:auto;
+	border-radius: 10px;
+	margin-top: 1.56em;
+	margin-bottom: 1.56em;
+	border: 1px solid #404040
+}
+
+p {text-align: justify; text-indent: 0.8cm}
+b, strong, .b {font-weight: bold}
+i, em, .i {font-style: italic}
+
+small, .small {font: 80%}
+
+mark, .mark
+{
+	color: #fff;
+	font: normal;
+	background: rgb(255,0,0)
+}
+del, strike,
+.del, strike {text-decoration: line-through}
+
+code, kbd, pre, samp
+.code, .kbd, .pre, .samp
+{
+	font: inherit monospace;
+	background-color: transparent
+}
+
+pre {overflow: auto;}
+
+sub, sup
+{
+	line-height: 0;
+	font: 80% normal
+}
+
+/* Direction */
+.ltr {direction: ltr}
+.rtl { direction: rtl}
+
+/*Tools Probel*/
+.tspacing {word-spacing: 10px}
+.tspacing- {word-spacing: -5px}
+
+/*Font Sizes*/
+.size10 {font-size: 0.625em}
+.size15 {font-size: 0.9375em}
+.size20 {font-size: 1.25em}
+.size30 {font-size: 1.875em}
+.size50 {font-size: 3.125em}
+
+/*Style*/
+/*Borders*/
+.binset {border-style: inset}
+.bsolid {border-style: solid}
+.bridge {border-style: ridge}
+.bnone {border-style: none}
+.boutset {border-style: outset}
+.bdotted {border-style: dotted}
+.bdouble {border-style: double}
+.bhidden {border-style: hidden}
+.bgroove {border-style: groove}
+.bdashed {border-style: dashed}
+.bmix {border-style: dotted dashed solid double}
+
+/*Border_Outlines*/
+.oinset {outline-style: inset}
+.osolid {outline-style: solid}
+.oridge {outline-style: ridge}
+.ooutset {outline-style: outset}
+.odotted {outline-style: dotted}
+.odouble {outline-style: double}
+.ogroove {outline-style: groove}
+.odashed {outline-style: dashed}
+
+/*Unordered va Ordered Lists*/
+.lnone {list-style-type: none}
+.lcircle {list-style-type: circle}
+.lspuare {list-style-type: spuare}
+.llower-alpha {list-style-type: lower-alpha}
+.lupper-roman {list-style-type: upper-roman}
+
+/*Display*/
+.dnone {display: none}
+.dblock {display: block}
+.dinline {display: inline}
+
+/*Rasm Style*/
+/*img
+{
+	height: auto;
+	margin; 8px;
+	width: 100%;
+	padding: 5px;
+	border: 1px solid #ddd
+}*/
+
+/*Opacity*/
+img[class="opactiy"]
+{
+	opacity: 0.4;
+	filter: alpha(opacity=40)
+}
+
+/*Count*/
+.qator2
+{
+	column-count: 2;
+	-moz-column-count: 2;
+	-khtml-column-count: 2;
+	-webkit-column-count: 2;
+	-o-webkit-column-count: 2;
+	-ms-webkit-column-count: 2
+}
+.qator3
+{
+	column-count: 3;
+	-moz-column-count: 3;
+	-khtml-column-count: 3;
+	-webkit-column-count: 3;
+	-o-webkit-column-count: 3;
+	-ms-webkit-column-count: 3
+}
+.qator4
+{
+	column-count: 4;
+	-moz-column-count: 4;
+	-khtml-column-count: 4;
+	-webkit-column-count: 4;
+	-o-webkit-column-count: 4;
+	-ms-webkit-column-count: 4
+}
+.qator5
+{
+	column-count: 5;
+	-moz-column-count: 5;
+	-khtml-column-count: 5;
+	-webkit-column-count: 5;
+	-o-webkit-column-count: 5;
+	-ms-webkit-column-count: 5
+}
+
+/*Width-lar*/
+[class*="as-"] {width: 100%}
+[class*="as-"] {float: left; padding: 15px}
+@media only screen and (min-width: 600px)
+{.asa-1 {width: 8.33%}
+.asa-2 {width: 16.66%}
+.asa-3 {width: 25%}
+.asa-4 {width: 33.33%}
+.asa-5 {width: 41.66%}
+.asa-6 {width: 50%}
+.asa-7 {width: 58.33%}
+.asa-8 {width: 66.66%}
+.asa-9 {width: 75%}
+.asa-10 {width: 83.33%}
+.asa-11 {width: 91.66%}
+.asa-12 {width: 100%}}
+
+@media only screen and (min-width: 768px)
+{.as-1 {width: 8.33%}
+.as-2 {width: 16.66%}
+.as-3 {width: 25%}
+.as-4 {width: 33.33%}
+.as-5 {width: 41.66%}
+.as-6 {width: 50%}
+.as-7 {width: 58.33%}
+.as-8 {width: 66.66%}
+.as-9 {width: 75%}
+.as-10 {width: 83.33%}
+.as-11 {width: 91.66%}
+.as-12 {width: 100%}}

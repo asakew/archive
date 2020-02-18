@@ -1,0 +1,158 @@
+/*
+* Poweder by http://www.wapdiz.ru
+* Editor by https://www.t.me/askew - ( 09.09.2018 )
+ */
+
+html body {
+    color: #545454;
+    font-size: 1em;
+    font-family: Times;
+    background: #000;
+    min-width: 220px;
+    max-width: 700px;
+    height: auto;
+    margin: 0 auto
+}
+
+a:link,a:visited {
+    color: #1f8ba0;
+    text-decoration: none;
+    margin: 0
+}
+
+a:active,a:hover {
+    text-decoration: underline
+}
+
+i.imgb {
+    background: url(images/bdir.gif) no-repeat left
+}
+
+i.imgg {
+    background: url(images/gdir.gif) no-repeat left
+}
+
+i.arr {
+    background: #fff url(images/arr.gif) no-repeat left;
+    padding: 3px 5px
+}
+
+.imgb,.imgg {
+    margin-left: -4px;
+    padding: 10px
+}
+
+div {
+    background: #fff;
+    margin: 1px;
+    padding: 2px
+}
+
+h3,hr,i.arr {
+    margin: 0
+}
+
+hr {
+    border-color: #f0f0f0 #fff #fff;
+    border-style: solid;
+    border-width: 1px
+}
+
+footer,header {
+    color: #fff;
+    padding: 15px
+}
+
+header {
+    background: #93db2e
+}
+
+footer {
+    background: #32b6ce
+}
+
+.site-news {
+    background: #fff url(images/content.gif) repeat-x 50% top;
+    border: 1px solid #ececec;
+    padding: 10px;
+    white-space: wrap
+}
+
+p {
+    text-align: justify;
+    margin: 5px 0
+}
+
+p:before {
+    content: "»";
+    padding: 3px;
+    color: #000
+}
+
+h3.title {
+    background: #e5eff0
+}
+
+h3.title-2 {
+    background: #eef8e0
+}
+
+.title,.title-2 {
+    text-align: center;
+    padding: 12px;
+    margin: 0
+}
+
+.title,.title-2,section.content {
+    border: 1px solid #e1ecd1
+}
+
+section.content-2 {
+    border: 1px solid #ececec
+}
+
+.content,.content-2,section {
+    background: #fff;
+    margin: 0
+}
+
+.content a:visited,section.content a:link {
+    color: #1f8ba0
+}
+
+.content a:active,section.content a:hover {
+    background: #e5eff0;
+    text-decoration: underline
+}
+
+.content-2 a:visited,section.content-2 a:link {
+    color: #62931d
+}
+
+.content-2 a:active,section.content-2 a:hover {
+    background: #eef8e0;
+    text-decoration: underline
+}
+
+.content a:link,.content a:visited,.content-2 a:link,.content-2 a:visited {
+    text-decoration: none;
+    margin: 0;
+    display: block;
+    padding: 8px
+}
+
+section.content a:before {
+    content: "›";
+    padding: 5px;
+    color: #1f8ba0
+}
+
+section.content-2 a:before {
+    content: "›";
+    padding: 5px;
+    color: #62931d
+}
+
+h3 {
+    padding: 0
+}
